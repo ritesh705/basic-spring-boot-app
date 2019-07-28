@@ -6,16 +6,16 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @EnableAutoConfiguration
-public class MyFirstSpringBootApp 
+public class App
 {
 	@RequestMapping("/")
 	String home()
 	{
-		return "My First Spring Boot Application";
+		return "Spring Boot Application";
 	}
 
     public static void main( String[] args ) throws Exception
     {
-        SpringApplication.run(MyFirstSpringBootApp.class, args);
+        SpringApplication.run(App.class, args);
     }
 }
