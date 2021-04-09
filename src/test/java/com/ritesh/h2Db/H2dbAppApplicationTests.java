@@ -1,10 +1,10 @@
-package com.ritesh.h2dbapp;
+package com.ritesh.h2Db;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class H2dbAppApplicationTests {
+class H2DBAppTests {
 
 	@Test
 	void contextLoads() {

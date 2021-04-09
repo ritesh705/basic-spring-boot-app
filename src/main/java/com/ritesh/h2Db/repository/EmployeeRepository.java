@@ -1,6 +1,6 @@
-package com.ritesh.h2dbapp.repository;
+package com.ritesh.h2Db.repository;
 
-import com.ritesh.h2dbapp.model.Employee;
+import com.ritesh.h2Db.model.Employee;
 import org.springframework.data.repository.CrudRepository;
 
 public interface EmployeeRepository extends CrudRepository<Employee, Integer> {

@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ritesh</groupId>
-	<artifactId>h2db-app</artifactId>
+	<artifactId>h2Db</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>h2db-app</name>
-	<description>Demo project for Spring Boot and h2DB</description>
+	<name>spring-boot-with-h2DB-app</name>
+	<description>App For Crud Operation in Spring Boot using H2DB</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

@@ -1,7 +1,7 @@
-package com.ritesh.h2dbapp.controller;
+package com.ritesh.h2Db.controller;
 
-import com.ritesh.h2dbapp.model.Employee;
-import com.ritesh.h2dbapp.service.EmployeeService;
+import com.ritesh.h2Db.model.Employee;
+import com.ritesh.h2Db.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

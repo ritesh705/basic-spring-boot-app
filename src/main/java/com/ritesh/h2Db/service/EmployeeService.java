@@ -1,7 +1,7 @@
-package com.ritesh.h2dbapp.service;
+package com.ritesh.h2Db.service;
 
-import com.ritesh.h2dbapp.model.Employee;
-import com.ritesh.h2dbapp.repository.EmployeeRepository;
+import com.ritesh.h2Db.model.Employee;
+import com.ritesh.h2Db.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
