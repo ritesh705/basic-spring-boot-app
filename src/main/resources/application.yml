@@ -1,3 +1,13 @@
+info:
+  app:
+    name: Spring Boot H2 DB App
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,beans,env,mappings
+
 server:
   port: 8081
 
