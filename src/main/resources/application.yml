@@ -27,3 +27,11 @@ spring:
     console:
       enabled: true
       #console url = http://localhost:8081/h2-console/
+
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          github:
+#            clientId:
+#            clientSecret: 

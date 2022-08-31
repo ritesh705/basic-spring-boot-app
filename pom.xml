@@ -8,16 +8,18 @@
 		<version>2.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ritesh</groupId>
-	<artifactId>h2Db</artifactId>
+	<groupId>com.ritesh.app</groupId>
+	<artifactId>spring-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-with-h2DB-app</name>
 	<description>App For Crud Operation in Spring Boot using H2DB</description>
+
 	<properties>
 		<java.version>11</java.version>
 		<maven.compiler.source>8</maven.compiler.source>
 		<maven.compiler.target>8</maven.compiler.target>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -50,12 +52,36 @@
 			<artifactId>log4j-core</artifactId>
 			<version>2.17.1</version>
 		</dependency>
+		<!-- Spring Security With OAuth2 -->
+		<!--<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-client</artifactId>
+		</dependency>-->
+		<!--For UI | Start-->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jquery</artifactId>
+			<version>3.4.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>4.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>webjars-locator-core</artifactId>
+		</dependency>
+		<!--For UI | Stop-->
+		<!--
+		For CHECKING Vulnerability
 		<dependency>
 			<groupId>org.owasp</groupId>
 			<artifactId>dependency-check-maven</artifactId>
 			<version>7.1.1</version>
 			<type>maven-plugin</type>
 		</dependency>
+		-->
 	</dependencies>
 
 
