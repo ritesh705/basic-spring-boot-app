@@ -15,7 +15,7 @@ spring:
   datasource:
     #url: jdbc:h2:mem:ritesh
     #persist the data
-    url: jdbc:h2:E:/ROOT/code-base/code-base/spring-boot-crud-with-h2DB-app/dbData/h2DB
+    url: jdbc:h2:E:/ROOT/code-base/code-base/spring-boot-app/dbData/h2DB
     driverClassName: org.h2.Driver
     username: sa
     password:

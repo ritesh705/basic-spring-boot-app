@@ -1,8 +1,8 @@
-package com.ritesh.h2Db.controller;
+package com.ritesh.app.controller;
 
-import com.ritesh.h2Db.Properties;
-import com.ritesh.h2Db.model.Employee;
-import com.ritesh.h2Db.service.EmployeeService;
+import com.ritesh.app.Properties;
+import com.ritesh.app.model.Employee;
+import com.ritesh.app.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;

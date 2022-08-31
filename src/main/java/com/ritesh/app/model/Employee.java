@@ -1,4 +1,4 @@
-package com.ritesh.h2Db.model;
+package com.ritesh.app.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.ritesh.h2Db;
+package com.ritesh.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,11 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @Configuration, @EnableAutoConfiguration, and @ComponentScan
 */
 @SpringBootApplication
-public class
-H2DBApp {
-
-	public static void main(String[] args) {
-		SpringApplication.run(H2DBApp.class, args);
+public class SpringBootApp
+{
+	public static void main(String[] args)
+	{
+		SpringApplication.run(SpringBootApp.class, args);
 	}
-
 }

@@ -1,4 +1,4 @@
-package com.ritesh.h2Db;
+package com.ritesh.app;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
